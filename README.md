@@ -38,5 +38,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
-
+```
 sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories && apk update  && apk add tzdata apache2 php7 php7-apache2 && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && apk del tzdata
+```
